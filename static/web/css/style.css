@@ -1,0 +1,40 @@
+html,
+body {
+    font-family: 'Baloo Chettan 2', sans-serif;
+}
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-around;
+}
+.book-container {
+    width: 180px;
+}
+.book-container .thumb img {
+    width: 100%;
+    object-fit: cover;
+}
+.book-container .thumb {
+    padding: 30px;
+    background: aliceblue;
+    border-radius: 10px;
+}
+.info h3 {
+    margin: 10px 0 0 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+.info p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+}
+.book-container {
+    margin-bottom: 30px;
+}
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
