@@ -1,3 +1,17 @@
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # Introduction to Python
 
 ## Understanding Why Python is So Cool <a href="#h.5i7gtk7vaej3" id="h.5i7gtk7vaej3"></a>
