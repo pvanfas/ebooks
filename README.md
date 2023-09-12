@@ -92,7 +92,7 @@ Given what you know from previous sections of this chapter, computers could neve
 
 It’s important to keep the purpose of an application in mind as you write it. An application is there to help humans speak to the computer in a certain way. Every application works with some type of data that is input, stored, manipulated, and output so that the humans using the application obtain the desired result. Whether the application is a game or a spreadsheet, the basic idea is the same. Computers work with data provided by humans to obtain the desired result.
 
-When you create an application, you’re providing a new method for humans to speak to the computer. The new approach you create will make it possible for other humans to view data in new ways. The communication between humans and computer should be easy enough that the application actually disappears from view. Think about the kinds of applications you’ve used in the past. The best applications are the ones that let you focus on whatever data you’re interacting with. For example, a game application is considered immersive only if you can focus on the planet you’re trying to save or the ship you’re trying to fly, rather than the application that lets you do these things.
+When you create an application, you’re providing a new method for humans to speak to the computer. The new approach you create will make it possible for other humans to view data in new ways. The communication between humans and computers should be easy enough that the application actually disappears from view. Think about the kinds of applications you’ve used in the past. The best applications are the ones that let you focus on whatever data you’re interacting with. For example, a game application is considered immersive only if you can focus on the planet you’re trying to save or the ship you’re trying to fly, rather than the application that lets you do these things.
 
 One of the best ways to start thinking about how you want to create an application is to look at the way other people create applications. Writing down what you like and dislike about other applications is a useful way to start discovering how you want your applications to look and work. Here are some questions you can ask yourself as you work with the applications:
 
@@ -115,23 +115,23 @@ The history of the Internet is somewhat obscure. It began in the 1960s as a US-a
 
 A website consists of a bunch of files saved on a hard disk -- just like your movies, music, or pictures. However, there is one part that is unique for websites: they include computer code called HTML.
 
-If you're not familiar with programming, it can be hard to grasp HTML at first, but your web browsers (like Chrome, Safari, Firefox, etc.) love it. Web browsers are designed to understand this code, follow its instructions, and present these files that your website is made of, exactly the way you want.
+If you're not familiar with programming, it can be hard to grasp HTML at first, but your web browsers (like Chrome, Safari, Firefox, etc.) love it. Web browsers are designed to understand this code, follow its instructions, and present the files that your website is made of, exactly the way you want.
 
-As with every file, we need to store HTML files somewhere on a hard disk. For the Internet, we use special, powerful computers called servers. They don't have a screen, mouse or a keyboard, because their main purpose is to store data and serve it. That's why they're called servers – because they serve you data.
+As with every file, we need to store HTML files somewhere on a hard disk. For the Internet, we use special, powerful computers called servers. They don't have a screen, mouse or keyboard, because their main purpose is to store data and serve it. That's why they're called servers – because they serve your data.
 
-In fact it is a network of connected machines (the above-mentioned servers). Hundreds of thousands of machines! Many, many kilometers of cables around the world! You can visit a Submarine Cable Map website ([http://submarinecablemap.com](https://www.google.com/url?q=http://submarinecablemap.com\&sa=D\&source=editors\&ust=1694503000506509\&usg=AOvVaw1RkvliUoNb1eAs9AETHtBR)) to see how complicated the net is. Here is a screenshot from the website:
+In fact, it is a network of connected machines (the above-mentioned servers). Hundreds of thousands of machines! Many, many kilometers of cables around the world! You can visit a Submarine Cable Map website ([http://submarinecablemap.com](https://www.google.com/url?q=http://submarinecablemap.com\&sa=D\&source=editors\&ust=1694503000506509\&usg=AOvVaw1RkvliUoNb1eAs9AETHtBR)) to see how complicated the net is. Here is a screenshot from the website:
 
 <figure><img src=".gitbook/assets/image7.png" alt=""><figcaption></figcaption></figure>
 
-It is not possible to have a wire between every machine connected to the Internet. So, to reach a machine (for example, the one where https://prospello.in is saved) we need to pass a request through many, many different machines.
+It is not possible to have a wire between every machine connected to the Internet. So, to reach a machine (for example, the one where [https://pvanfas.com](https://pvanfas.com) is saved) we need to pass a request through many, many different machines.
 
-Imagine that when you type https://prospello.in, you send a letter that says: "Dear Internet, I want to see the prospello.in website. Send it to me, please!"
+Imagine that when you type [https://pvanfas.com](htps://pvanfas.com), you send a letter that says: "Dear Internet, I want to see the [pvanfas.com](https://pvanfas.com) website. Send it to me, please!"
 
 Your letter goes to the post office closest to you. Then it goes to another that is a bit nearer to your addressee, then to another, and another until it is delivered at its destination. The only unique thing is that if you send many letters (data packets) to the same place, they could go through totally different post offices (routers). This depends on how they are distributed at each office.
 
-That's how it works - you send messages and you expect some response. Instead of paper and pen you use bytes of data, but the idea is the same!
+That's how it works - you send messages and you expect some response. Instead of paper and pen, you use bytes of data, but the idea is the same!
 
-Instead of addresses with a street name, city, zip code and country name, we use IP addresses. Your computer first asks the DNS (Domain Name System) to translate djangoboys.org into an IP address. It works a little bit like old-fashioned phone books where you can look up the name of the person you want to contact and find their phone number and address.
+Instead of addresses with a street name, city, zip code, and country name, we use IP addresses. Your computer first asks the DNS (Domain Name System) to translate djangoboys.org into an IP address. It works a little bit like old-fashioned phone books where you can look up the name of the person you want to contact and find their phone number and address.
 
 When you send a letter, it needs to have certain features to be delivered correctly: an address, a stamp, etc. You also use a language that the receiver understands, right? The same applies to the data packets you send to see a website. We use a protocol called HTTP (Hypertext Transfer Protocol).
 
