@@ -28,12 +28,12 @@ As with every other programming language, Python does some things exceptionally 
 
 ### Unearthing the reasons for using Python <a href="#h.qfurqga96jzf" id="h.qfurqga96jzf"></a>
 
-Most programming languages are created with specific goals in mind. These goals help define the language characteristics and determine what you can do with the language. There really isn’t any way to create a programming ­language that does everything because people have competing goals and needs when creating applications. When it comes to Python, the main objective was to create a programming language that would make programmers efficient and productive. With that in mind, here are the reasons that you want to use Python when creating an application:
+Most programming languages are created with specific goals in mind. These goals help define the language characteristics and determine what you can do with the language. There really isn’t any way to create a programming language that does everything because people have competing goals and needs when creating applications. When it comes to Python, the main objective was to create a programming language that would make programmers efficient and productive. With that in mind, here are the reasons that you want to use Python when creating an application:
 
 * Less application development time: Python code is usually 2–10 times shorter than comparable code written in languages like C/C++ and Java, which means that you spend less time writing your application and more time using it.
-* Ease of reading: A programming language is like any other language — you need to be able to read it to understand what it does. Python code tends to be easier to read than the code written in other languages, which means you spend less time interpreting it and more time making essential changes.
+* Ease of reading: A programming language is like any other language — you need to be able to read it to understand what it does. Python code tends to be easier to read than code written in other languages, which means you spend less time interpreting it and more time making essential changes.
 
-> Python is the most popular language as of October 2021 as per TIOBE (https://www.tiobe.com/tiobe-index/). Python, which started as a simple scripting language, as an alternative to Perl, has become mature. Its ease of learning, its huge amount of libraries, and its widespread use in all kinds of domains, has made it the most popular programming language of today.
+> Python is the most popular language as of October 2021 as per TIOBE ([https://www.tiobe.com/tiobe-index/](https://www.tiobe.com/tiobe-index/)). Python, which started as a simple scripting language, as an alternative to Perl, has become mature. Its ease of learning, its huge amount of libraries, and its widespread use in all kinds of domains, has made it the most popular programming language of today.
 
 ### What makes Python the “Best of the Best?” <a href="#h.wt8q6697sxiq" id="h.wt8q6697sxiq"></a>
 
@@ -41,7 +41,7 @@ Here are some of the most noteworthy features of Python that make it an excellen
 
 #### Python = Simplicity
 
-Python is not only easy to learn but also easy to use and implement. With a syntax similar to English, you can master Python coding in a few days. Moreover, Python is dynamically-typed, which makes indentation mandatory, thereby enhancing its readability factor.
+Python is not only easy to learn but also easy to use and implement. With a syntax similar to English, you can master Python coding in a few days. Moreover, Python is dynamically typed, which makes indentation mandatory, thereby enhancing its readability factor.
 
 #### It is an open-source language
 
@@ -49,7 +49,7 @@ You don’t need to pay charges to install and use Python – it is open-source.
 
 #### It is a high-level language
 
-Since Python is a high-level language, you need not remember its system architecture, nor do you need to perform memory management. This feature contributes to Python’s user friendliness.
+Since Python is a high-level language, you need not remember its system architecture, nor do you need to perform memory management. This feature contributes to Python’s user-friendliness.
 
 #### It is interpreted
 
@@ -75,7 +75,7 @@ When you download Python, you will automatically download the extensive collecti
 
 #### 1. Web Development
 
-Python offers numerous options for web development. For instance, you have Django, Pyramid, Flask, and Bottle for developing web frameworks and even advanced content management systems like Plone and Django CMS. These web frameworks are packed with standard libraries and modules which simplify tasks like content management, database interaction, and interfacing with internet protocols like HTTP, SMTP, XML, JSON, FTP, IMAP, and POP.
+Python offers numerous options for web development. For instance, you have Django, Pyramid, Flask, and Bottle for developing web frameworks and even advanced content management systems like Plone and Django CMS. These web frameworks are packed with standard libraries and modules that simplify tasks like content management, database interaction, and interfacing with internet protocols like HTTP, SMTP, XML, JSON, FTP, IMAP, and POP.
 
 Python web frameworks are known for their security, scalability, and flexibility. To add to that, Python’s Package Index comes with useful libraries like Requests, BeautifulSoup, Paramiko, Feedparser, and Twisted Python.
 
@@ -99,7 +99,7 @@ Some of the most useful Python packages for scientific and numeric computation i
 
 #### 4. Artificial Intelligence and Machine Learning
 
-AI and ML models and projects are inherently different from traditional software models. When we talk about AI/ML projects, the tools and technologies used and the skills required are totally different from those used in the development of conventional software projects. AI/ML applications require a language that is stable, secure, flexible, and is equipped with tools that can handle the various unique requirements of such projects. Python has all these qualities, and hence, it has become one of the most favored languages of Data Science professionals and Python is a must have tool in data science courses.
+AI and ML models and projects are inherently different from traditional software models. When we talk about AI/ML projects, the tools and technologies used and the skills required are totally different from those used in the development of conventional software projects. AI/ML applications require a language that is stable, secure, flexible and equipped with tools that can handle the various unique requirements of such projects. Python has all these qualities, and hence, it has become one of the most favored languages of Data Science professionals and Python is a must-have tool in data science courses.
 
 Python’s simplicity, consistency, platform independence, great collection of resourceful libraries, and an active community make it the perfect tool for developing AI and ML applications. Some of the best Python packages for AI and ML are:
 
@@ -220,12 +220,12 @@ packages that aren't from the App Store. Go to System Preferences (it's in the A
 
 It is very likely that you already have Python installed out of the box. To check if you have it installed (and which version it is), open a console and type the following command:
 
-$ python3 --version\
-Python 3.8.6
+`python3 --version`\
+`# Python 3.8.6`
 
 If python3 is not installed on your system, type this command into your terminal console:
 
-$ sudo apt install python3
+`sudo apt install python3`
 
 If something went wrong and you have no idea what to do next, please ask your coach! Sometimes things don't go smoothly and it's better to ask for help from someone with more experience.
 
